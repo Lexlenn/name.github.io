@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    
+</head>
+<body>
+
+    <script>
+        const audio1 = new Audio('Img and audios/windows-error-sound-effect-35894.mp3')
+        function ola() {
+            setTimeout(() => {
+               
+
+                audio1.play();
+                ola()
+            }, 100)
+        }
+        alert("espere 4 segundos apos clicar em ok")
+        setTimeout(() => {
+            ola()
+        }, 4000)
+
+
+
+
+       
+
+    </script>
+    <style>
+        body {
+            background-color: orange;
+        }
+    </style>
+
+
+</body>
+
+</html>
